@@ -71,7 +71,7 @@ jobs:
               ;;
             Fedora43)
               echo "image=fedora:43" >> "$GITHUB_OUTPUT"
-              echo "script=producers/kde/Fedora43_v3/build.sh" >> "$GITHUB_OUTPUT"
+              echo "script=producers/kde/Fedora43_v4/build.sh" >> "$GITHUB_OUTPUT"
               echo "dest=anland-build/Fedora43" >> "$GITHUB_OUTPUT"
               echo "pkg_pattern=*.rpm" >> "$GITHUB_OUTPUT"
               ;;
